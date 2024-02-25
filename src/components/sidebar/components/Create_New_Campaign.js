@@ -105,11 +105,11 @@ const adToolOptions = ["Discovery ads", "Product Search ads", "Shop Search ads"]
             onChange={(e) => setMarketplace(e.target.value)}
           >
             {/* Replace with actual options */}
-            <option value="shopee">Shopee</option>
-            <option value="lazada">Lazada</option>
-            <option value="amazon">Amazon</option>
-            <option value="tika">Tika</option>
-            <option value="flipkart">Flipkart</option>
+            <option value="Shopee">Shopee</option>
+            <option value="Lazada">Lazada</option>
+            <option value="Amazon">Amazon</option>
+            <option value="Tika">Tika</option>
+            <option value="Flipkart">Flipkart</option>
           </Select>
         </FormControl>
 
@@ -122,13 +122,13 @@ const adToolOptions = ["Discovery ads", "Product Search ads", "Shop Search ads"]
             onChange={(e) => setCountry(e.target.value)}
           >
             {/* Replace with actual options */}
-            <option value="india">India</option>
-            <option value="indonesia">Indonesia</option>
-            <option value="america">America</option>
-            <option value="pakistan">Pakistan</option>
-            <option value="japan">Japan</option>
-            <option value="china">China</option>
-            <option value="vietnam">Vietnam</option>
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="America">America</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+            <option value="Vietnam">Vietnam</option>
           </Select>
         </FormControl>
         <FormControl id="storefront">
@@ -138,8 +138,8 @@ const adToolOptions = ["Discovery ads", "Product Search ads", "Shop Search ads"]
             placeholder="Select Storefront"
             onChange={(e) => setStorefront(e.target.value)}
           >
-            <option value="Olay Official Shop"> {marketplace}/{country}/Olay Official Shop</option>
-            <option value="P&G Official Shop">{marketplace}/{country}/P&G Official Shop</option>
+            <option value="NeonCommerce Official Shop"> {marketplace}/{country}/NeonCommerce Official Shop</option>
+            <option value="NeonCommerce Official Shop">{marketplace}/{country}/NeonCommerce Official Shop</option>
           </Select>
         </FormControl>
 
@@ -240,7 +240,7 @@ const adToolOptions = ["Discovery ads", "Product Search ads", "Shop Search ads"]
       <Tr>
         <Td>Shopee</Td>
         <Td>Indonesia</Td>
-        <Td>Shopee / Indc</Td>
+        <Td>Shopee / Indoneisa/Brandname</Td>
         <Td>
           <Popover>
             <PopoverTrigger>

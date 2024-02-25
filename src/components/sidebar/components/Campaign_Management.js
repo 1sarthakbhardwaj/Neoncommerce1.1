@@ -70,7 +70,7 @@ const dummyRows = new Array(10).fill(null).map((_, index) => {
     return {
       country: 'Indonesia',
       marketplace: `Shopee`,
-      storefront: 'Olay Official Shop',
+      storefront: 'Neon Storefront',
       adTool: 'Product Search Ads',
       campaign: `Campaign ${index + 1}`,
       campaignTag: 'N/A',
@@ -79,7 +79,7 @@ const dummyRows = new Array(10).fill(null).map((_, index) => {
       clicks: Math.floor(Math.random() * 200),
       cost: `${Math.floor(Math.random() * 1000)} IDR`,
       adCMV: `${Math.floor(Math.random() * 10000)} IDR`,
-      roas: `${(Math.random() * 10).toFixed(2)}x`,
+      roas: `${(Math.random() * 10).toFixed(2)}`,
       cpc: `${Math.floor(Math.random() * 100)} IDR`
     };
   });
