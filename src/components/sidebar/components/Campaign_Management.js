@@ -129,7 +129,7 @@ const dummyRows = new Array(10).fill(null).map((_, index) => {
       
       <Flex justifyContent="space-between" alignItems="center" mb={4}>
         <Badge colorScheme="blue" p={2}>
-          P&G Indo Olay Store Shopee - Updated 2 minutes ago
+          NeonCommerce Indo Neon Store Shopee - Updated 2 minutes ago
         </Badge>
         <Flex>
           <Button mr={2}>Filter</Button>
